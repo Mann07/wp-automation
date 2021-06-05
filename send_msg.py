@@ -7,7 +7,7 @@ import pathlib
 
 class automation:
     def __init__(self):
-        path='D:\Reg_No_App\dist\chromedriver.exe'
+        path='chromedriver.exe'
         option = webdriver.ChromeOptions()
         option.add_argument(f'--user-data-dir={pathlib.Path.home()}/AppData/Local/Google/Chrome/User Data')
 
